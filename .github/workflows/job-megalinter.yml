@@ -49,7 +49,7 @@ jobs:
       - name: MegaLinter
 
         # More MegaLinter flavours -> https://megalinter.io/latest/flavors/
-        uses: oxsecurity/megalinter@a7a0163b6c8ff7474a283d99a706e27483ddd80f # v7.10.0
+        uses: oxsecurity/megalinter@bacb5f8674e3730b904ca4d20c8bd477bc51b1a7 # v7.13.0
         id: ml
         env:
           VALIDATE_ALL_CODEBASE: >-
